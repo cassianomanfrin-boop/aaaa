@@ -66,7 +66,7 @@ nav a:hover {
 
 
 .hero {
-  padding: 88px 0 72px;
+  padding: 48px 0 40px;
 }
 
 .hero .wrap {
@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   max-width: 12ch;
   background: linear-gradient(135deg, #8f6ff0, #6d4acb);
   -webkit-background-clip: text;
@@ -89,7 +89,8 @@ nav a:hover {
 .hero p {
   color: #9a95b8;
   max-width: 52ch;
-  margin: 18px 0 26px;
+  margin: 12px 0 16px;
+  font-size: 0.95rem;
 }
 
 .btn {
@@ -123,7 +124,7 @@ nav a:hover {
 
 
 .d20 {
-  width: 300px;
+  width: 250px;
   height: auto;
   flex: 0 0 auto;
   object-fit: contain;
@@ -131,12 +132,12 @@ nav a:hover {
 
 
 section {
-  padding: 72px 0;
+  padding: 48px 0;
   border-bottom: 2px solid rgba(109, 74, 203, 0.3);
 }
 
 section h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   background: linear-gradient(135deg, #8f6ff0, #6d4acb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -146,23 +147,24 @@ section h2 {
 
 .sub {
   color: #9a95b8;
-  margin: 8px 0 28px;
+  margin: 6px 0 16px;
   max-width: 62ch;
+  font-size: 0.94rem;
 }
 
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
 }
 
 .card {
   background: linear-gradient(135deg, #13111f 0%, #1a1627 100%);
   border: 2px solid #6d4acb;
-  padding: 20px;
-  width: calc(33.333% - 11px);
-  min-width: 260px;
+  padding: 14px;
+  width: calc(33.333% - 8px);
+  min-width: 240px;
   flex-grow: 1;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -176,8 +178,8 @@ section h2 {
 }
 
 .card h3 {
-  font-size: 0.98rem;
-  margin-bottom: 8px;
+  font-size: 0.92rem;
+  margin-bottom: 6px;
 }
 
 .system-logo {
@@ -197,7 +199,7 @@ section h2 {
 
 .card p {
   color: #9a95b8;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
 }
 
 .card.largo {
@@ -305,15 +307,15 @@ section h2 {
 .ficha {
   background: linear-gradient(135deg, #13111f 0%, #1a1627 100%);
   border: 2px solid #6d4acb;
-  padding: 28px;
+  padding: 20px;
   border-radius: 6px;
   box-shadow: 0 8px 30px rgba(109, 74, 203, 0.2);
 }
 
 .ficha fieldset {
   border: 2px solid #6d4acb;
-  padding: 16px;
-  margin-bottom: 18px;
+  padding: 12px;
+  margin-bottom: 12px;
   border-radius: 4px;
   background: rgba(109, 74, 203, 0.05);
 }
@@ -327,7 +329,7 @@ section h2 {
 .campos {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
 }
 
 .campos label {
@@ -388,7 +390,7 @@ ol.grid {
 }
 
 footer {
-  padding: 36px 0;
+  padding: 24px 0;
   color: #9a95b8;
   font-size: 0.82rem;
   text-align: center;
