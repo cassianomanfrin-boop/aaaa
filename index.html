@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mesa Aberta — RPG de mesa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#topo">Mesa Aberta</a>
+    <nav>
+      <a href="#comecar">Como começar</a>
+      <a href="#o-que-e">O que é</a>
+      <a href="#sistemas">Sistemas</a>
+      <a href="#recomendacoes">Recomendações</a>
+      <a href="#fichas">Fichas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+
+
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Sente à mesa. A história é de vocês.</h1>
+        <p>RPG de mesa é contar uma história em grupo, com regras, dados e muita imaginação. Aqui você entende como funciona, conhece sistemas populares, descobre qual combina com seu grupo e já monta sua ficha.</p>
+        <a class="btn main" href="#sistemas">Ver sistemas</a>
+        <a class="btn" href="#fichas">Criar ficha</a>
+      </div>
+      <img class="d20" src="https://cdn.pixabay.com/photo/2024/04/23/03/07/dice-8713848_1280.png" alt="Dado de vinte faces mostrando o número 20">
+    </div>
+  </div>
+
+
+  <section id="o-que-e">
+    <div class="wrap">
+      <h2>O que é RPG de mesa?</h2>
+      <p class="sub">RPG (Role-Playing Game) é um jogo de interpretação de papéis. Cada jogador controla um personagem; uma pessoa, o mestre (ou narrador), descreve o mundo e dá vida a todo o resto.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Jogadores</h3>
+          <p>Criam personagens, decidem o que eles fazem e falam por eles. Não é preciso ser ator: basta querer participar da história.</p>
+        </div>
+        <div class="card">
+          <h3>Mestre</h3>
+          <p>Apresenta cenários, conduz a aventura e interpreta aliados e vilões. Também resolve dúvidas de regra.</p>
+        </div>
+        <div class="card">
+          <h3>Regras e dados</h3>
+          <p>Quando o resultado é incerto, os dados decidem. A ficha diz quão bom o personagem é em cada coisa.</p>
+        </div>
+        <div class="card largo">
+          <h3>Sistema e cenário</h3>
+          <p>O sistema é o conjunto de regras. O cenário é o mundo da história. Um mesmo sistema serve para vários cenários.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="comecar">
+    <div class="wrap">
+      <h2>Como começar</h2>
+      <p class="sub">Você só precisa de amigos(se não tiuver amigos, apenas saia daqui), papel e dados. Siga a ordem:</p>
+      <ol class="grid">
+        <li class="card">
+          <h3>1. Monte o grupo</h3>
+          <p>De 3 a 5 jogadores e um mestre é um bom tamanho.</p>
+        </li>
+        <li class="card">
+          <h3>2. Escolha o sistema</h3>
+          <p>Use as recomendações acima. Muitos têm regras básicas gratuitas.</p>
+        </li>
+        <li class="card">
+          <h3>3. Crie os personagens</h3>
+          <p>Façam juntos, na chamada "sessão zero", e combinem o tom do jogo.</p>
+        </li>
+        <li class="card">
+          <h3>4. Jogue a primeira aventura</h3>
+          <p>Comece pequeno. Errar regra faz parte; o importante é a história.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section id="sistemas">
+    <div class="wrap">
+      <h2>Sistemas para conhecer</h2>
+      <p class="sub">Um resumo honesto de alguns dos sistemas mais jogados, incluindo opções brasileiras. Use o filtro para ver por estilo.</p>
+
+      <div class="filtro">
+        <input type="radio" name="f" id="f-todos" checked>
+        <input type="radio" name="f" id="f-fan">
+        <input type="radio" name="f" id="f-ter">
+        <input type="radio" name="f" id="f-nar">
+        <div class="abas">
+          <label for="f-todos">Todos</label>
+          <label for="f-fan">Fantasia</label>
+          <label for="f-ter">Terror e investigação</label>
+          <label for="f-nar">Narrativos</label>
+        </div>
+
+        <div class="grid">
+          <article class="card sis fan">
+            <span class="tag">Fantasia</span>
+            <h3><img class="system-logo" src="https://1000logos.net/wp-content/uploads/2022/10/Dungeons-and-Dragons-logo.png" alt="Dungeons &amp; Dragons 5ª edição"></h3>
+            <p>O RPG mais famoso do mundo. Classes, magias, masmorras e dragões, com regras de fácil acesso.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d20 + modificador</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>iniciantes e campanhas heroicas</dd>
+            </dl>
+          </article>
+
+          <article class="card sis fan">
+            <span class="tag">Fantasia</span>
+            <h3><img class="system-logo system-logo-destaque" src="https://cdn.paizo.com/d960ad1b-9967-00f9-1158-72274b18312d/8c2db6cf-fa52-4636-baec-0a64af9551e7/PF2Logo1600.png" alt="Pathfinder 2ª edição"></h3>
+            <p>Muita personalização e combate tático, com graus de sucesso. Exige mais estudo, mas recompensa quem gosta de montar builds.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d20 + modificador</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>alta</dd>
+              <dt>Ideal para:</dt> <dd>quem curte tática e opções</dd>
+            </dl>
+          </article>
+
+          <article class="card sis fan">
+            <span class="tag">Fantasia · Brasil</span>
+            <h3><img class="system-logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/cb5ffb133888121.61c9082a7453f.png" alt="Tormenta20"></h3>
+            <p>Ambientado no mundo de Arton, com regras que lembram o D&amp;D, mas mais ágeis e com muita ação heroica.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d20 + modificador</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>aventura criada em português</dd>
+            </dl>
+          </article>
+
+          <article class="card sis fan">
+            <span class="tag">Fantasia · Brasil</span>
+            <h3><img class="system-logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Logotipo_do_Old_Dragon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Old Dragon"></h3>
+            <p>Inspirado no D&amp;D clássico: regras simples, mortais e rápidas. Foco em explorar e sobreviver.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d20 e d6</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>baixa</dd>
+              <dt>Ideal para:</dt> <dd>partidas rápidas e old school</dd>
+            </dl>
+          </article>
+
+          <article class="card sis ter">
+            <span class="tag">Terror · Investigação</span>
+            <h3><img class="system-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Call_of_Cthulhu_RPG_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Call of Cthulhu"></h3>
+            <p>Investigadores comuns diante de horrores cósmicos. Os personagens são frágeis e a sanidade é um recurso que se perde.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d100 (percentual)</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>mistério e clima de tensão</dd>
+            </dl>
+          </article>
+
+          <article class="card sis ter">
+            <span class="tag">Terror · Brasil</span>
+            <h3><img class="system-logo system-logo-destaque" src="https://ordemparanormal.com.br/wp-content/uploads/2021/07/op-logo.png" alt="Ordem Paranormal"></h3>
+            <p>Agentes investigam o Paranormal em um universo brasileiro moderno, com regras derivadas do sistema base do d20.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>vários d20, pega o melhor</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>terror e ação contemporânea</dd>
+            </dl>
+          </article>
+
+          <article class="card sis ter">
+            <span class="tag">Drama pessoal</span>
+            <h3><img class="system-logo system-logo-branco" src="https://images.squarespace-cdn.com/content/v1/5dbf1c420f3dd315bb4bb83c/153ff21f-2f54-41cb-bbdc-3b3ded089a5a/logo.png" alt="Vampiro: A Máscara"></h3>
+            <p>Você é um vampiro tentando manter a humanidade enquanto lida com intrigas políticas. Interpretação vale mais que combate.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>pool de d10</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>intriga e drama</dd>
+            </dl>
+          </article>
+
+          <article class="card sis nar">
+            <span class="tag">Narrativo</span>
+            <h3><img class="system-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Powered-by-Fate-Final-Light-BG.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Fate"></h3>
+            <p>Sistema flexível em que os personagens são definidos por aspectos, frases que descrevem quem são e o que importa para eles.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>4 dados Fate (−, 0, +)</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>baixa</dd>
+              <dt>Ideal para:</dt> <dd>histórias de qualquer gênero</dd>
+            </dl>
+          </article>
+
+          <article class="card sis nar">
+            <span class="tag">Narrativo</span>
+            <h3><img class="system-logo" src="https://db4sgowjqfwig.cloudfront.net/game_systems/267/assets/1044422/blades-in-the-dark-logo.png?1581289720" alt="Blades in the Dark"></h3>
+            <p>Uma gangue de ladrões em uma cidade industrial e sombria. Os planos são improvisados com flashbacks.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>pool de d6</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>assaltos e ação criativa</dd>
+            </dl>
+          </article>
+
+          <article class="card sis nar">
+            <span class="tag">Multi-gênero</span>
+            <h3><img class="system-logo" src="https://static.tvtropes.org/pmwiki/pub/images/sw_logo_24bit.png" alt="Savage Worlds"></h3>
+            <p>Ação rápida e pulp, pensada para jogar em qualquer cenário. Os dados mudam de acordo com a perícia.</p>
+            <dl>
+              <dt>Dado:</dt> <dd>d4 a d12 por atributo</dd>
+              <dt>Dificuldade(do sistema):</dt> <dd>média</dd>
+              <dt>Ideal para:</dt> <dd>mestres que variam de cenário</dd>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="recomendacoes">
+    <div class="wrap">
+      <h2>Qual sistema combina com você?</h2>
+      <p class="sub">Escolha pelo que você quer viver na mesa, não pelo que é mais famoso.</p>
+      <div class="rec">
+        <div class="card">
+          <strong>Nunca joguei nada</strong>
+          <span>Comece por D&amp;D 5e ou Ordem Paranormal: há muito material, vídeos e grupos procurando jogadores.</span>
+        </div>
+        <div class="card">
+          <strong>Quero jogar em uma noite</strong>
+          <span>Old Dragon ou Fate resolvem uma história curta sem muito preparo.</span>
+        </div>
+        <div class="card">
+          <strong>Gosto de terror e mistério</strong>
+          <span>Call of Cthulhu para quem gosta de um terror cósmico, e de sofrer na mão do mestre.</span>
+        </div>
+        <div class="card">
+          <strong>Prefiro interpretar a lutar</strong>
+          <span>Vampiro: A Máscara ou Fate, onde as relações entre os personagens importam mais do que os valores de dados.</span>
+        </div>
+        <div class="card">
+          <strong>Adoro montar builds</strong>
+          <span>Pathfinder 2e tem mais opções de customização do que quase qualquer outro.</span>
+        </div>
+        <div class="card">
+          <strong>Quero ser o mestre</strong>
+          <span>Old Dragon é o mais simples de mestrar; D&amp;D 5e tem mais aventuras prontas.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="fichas">
+    <div class="wrap">
+      <h2>Crie sua ficha</h2>
+      <p class="sub">Uma ficha genérica de seis atributos, boa para sistemas d20. Preencha na tela e use <strong>Ctrl+P</strong> para salvar em PDF ou imprimir. Só a ficha aparece na impressão.</p>
+
+      <form class="ficha" onsubmit="return false">
+        <fieldset>
+          <legend>Personagem</legend>
+          <div class="campos">
+            <label>Nome <input type="text" placeholder="Ex.: Thorin Machado"></label>
+            <label>Classe / Profissão <input type="text" placeholder="Ex.: Guerreiro"></label>
+            <label>Raça / Origem <input type="text" placeholder="Ex.: Anão"></label>
+            <label>Nível <input type="number" min="1" max="20" value="1"></label>
+            <label>Jogador <input type="text"></label>
+            <label>Tendência
+              <select>
+                <option>Leal e bom</option>
+                <option>Neutro e bom</option>
+                <option>Caótico e bom</option>
+                <option>Leal e neutro</option>
+                <option>Neutro</option>
+                <option>Caótico e neutro</option>
+                <option>Leal e mau</option>
+                <option>Neutro e mau</option>
+                <option>Caótico e mau</option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Atributos</legend>
+          <div class="attrs">
+            <label>Força <input type="number" value="10"></label>
+            <label>Destreza <input type="number" value="10"></label>
+            <label>Constituição <input type="number" value="10"></label>
+            <label>Inteligência <input type="number" value="10"></label>
+            <label>Sabedoria <input type="number" value="10"></label>
+            <label>Carisma <input type="number" value="10"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Combate</legend>
+          <div class="campos">
+            <label>Pontos de vida <input type="number" value="10"></label>
+            <label>Classe de armadura <input type="number" value="10"></label>
+            <label>Iniciativa <input type="number" value="0"></label>
+            <label>Deslocamento <input type="text" value="9 m"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Perícias, equipamento e magias</legend>
+          <label>Perícias <textarea></textarea></label>
+          <label style="margin-top:12px">Equipamento <textarea></textarea></label>
+          <label style="margin-top:12px">Magias e habilidades <textarea></textarea></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>História</legend>
+          <label>Aparência, personalidade e objetivos <textarea style="min-height:130px"></textarea></label>
+        </fieldset>
+
+        <p class="avisoimp" style="color:#9a95b8;font-size:.85rem">Dica: ao imprimir, desative "cabeçalhos e rodapés" nas opções do navegador.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Mesa Aberta. Site do cassiGOAT, para iniciantes em rpg.</footer>
+
+</body>
+</html>
